@@ -20,16 +20,15 @@ baseurl:               '/hyde'
 lang:                  en
 
 # The title of your blog. Used in the sidebar and the browser tab.
-title:                 KYA
+title:                 Kongu Youth of America
 
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description:           >
-  Hydejack is a boutique Jekyll theme for hackers, nerds, and academics,
-  with a focus on personal sites that are meant to impress.
+  Kongu Youth of America is a community of Kongu individuals ranging in ages from 18 to 30.
 
 # A shorter description for the sidebar.
-tagline:               Change `tagline` in `_config.yml`
+tagline:               A Kongu community of youths across the country, ages 18-30.
 
 # A list of keywords for your blog
 keywords:              []
@@ -37,7 +36,7 @@ keywords:              []
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
 # It also used by the `jekyll-seo-tag` plugin.
-logo:                  "/assets/img/Logo Light Green.jpeg"
+logo:                  "/assets/img/logo-invert.jpeg"
 
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
@@ -88,13 +87,13 @@ remote_theme: hydecorp/hydejack@v9.1.4
 # ----------------------------------------------------------------------------------------
  
 # Sidebar image and theme color of the site.
-accent_image:          /assets/img/sidebar-bg.jpg
-accent_color:          rgb(79,177,186)
+accent_image:          /assets/img/dallas.jpg
+accent_color:          rgb(31,47,24)
 
 # This is used for the `theme-color` meta tag,
 # which changes the background color of the browser UI in certain browsers.
 # Defaults to `accent_color`.
-theme_color:           rgb(8,46,57)
+theme_color:           rgb(31,47,24)
 
 # The string encoding which fonts to fetch from Google Fonts.
 # See: <https://hydejack.com/docs/configuration/>
@@ -217,7 +216,7 @@ hydejack:
 
   # Set to `true` if you don't intend on changing the accent color on a per-page basis. 
   # This will increase site build speed!
-  no_page_style:       false
+  no_page_style:       true
 
   # Code blocks and tables "break" the layout by spanning the full available width.
   # Set this to true if you want them to be the same width as other content.
