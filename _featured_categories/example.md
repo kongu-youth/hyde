@@ -3,10 +3,10 @@
 layout: list
 
 # The title of the tag's page.
-title: Example
+title: Blog
 
 # The name of the tag, used in a post's front matter (e.g. tags: [<slug>]).
-slug: example
+slug: Blog
 
 # (Optional) Write a short (~150 characters) description of this featured tag.
 description: >
@@ -18,5 +18,8 @@ description: >
 
 # Exclude this example category from the sitemap.
 # DON'T USE THIS SETTING IN YOUR CATEGORIES!
-sitemap: false
+sitemap: true
+permalink: /example/
 ---
+
+# Blog Here

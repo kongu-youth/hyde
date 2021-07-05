@@ -3,7 +3,8 @@
 
 # Uncomment and set the URL of your site (with protocol, e.g. `https://`)
 # NOTE: You don't need to provide this property when hosting on GitHub Pages or Netlify.
-url:                   'https://kongu-youth.github.io'
+#url:                   'https://kongu-youth.github.io'
+url: ''
 
 # Uncomment and set the "base URL" of your site.
 # When your site is in a subdirectory, set to `/<name of directory>`,
@@ -48,12 +49,14 @@ author:
 
 # Add links to the sidebar.
 menu:
-  - title:             Example
-    url:               /example/
   - title:             Documentation
     url:               /docs/
   - title:             About
     url:               /about/
+  - title:             Licenses
+    url:               /licenses/
+  - title:             Posts
+    url:               /posts/
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
@@ -62,8 +65,6 @@ legal:
     url:               /LICENSE/
   - title:             NOTICE
     url:               /NOTICE/
-  - title:             CHANGELOG
-    url:               /CHANGELOG/
 
 # This text will appear in a `<small>` tag in the footer of every page.
 copyright:             © 2021. All rights reserved.
@@ -116,8 +117,8 @@ defaults:
   - scope:
       path:            hyde/
     values:
-      accent_color:    rgb(38,139,210)
-      theme_color:     rgb(38,139,210)
+      accent_color:    rgb(31,47,24)
+      theme_color:     rgb(31,47,24)
       accent_image:
         background:    rgb(32,32,32)
         overlay:       false
@@ -216,7 +217,7 @@ hydejack:
 
   # Set to `true` if you don't intend on changing the accent color on a per-page basis. 
   # This will increase site build speed!
-  no_page_style:       true
+  no_page_style:       false
 
   # Code blocks and tables "break" the layout by spanning the full available width.
   # Set this to true if you want them to be the same width as other content.
